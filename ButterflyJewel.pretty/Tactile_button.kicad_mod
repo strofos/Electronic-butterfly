@@ -1,0 +1,24 @@
+(module Tactile_button (layer F.Cu) (tedit 5E3D777D)
+  (fp_text reference REF** (at -5.08 -5.08) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Tactile_button (at -2.54 -10.16) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole custom (at 0 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 11.43 -3.81) (xy 1.27 -3.81) (xy 1.27 0) (xy 11.43 0) (xy 11.43 1.27)
+         (xy 1.27 1.27) (xy 1.27 5.08) (xy 11.43 5.08) (xy 11.43 6.35) (xy -1.27 6.35)
+         (xy -1.27 -5.08) (xy 11.43 -5.08)) (width 0.1))
+    ))
+  (pad 2 thru_hole custom (at 13.97 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy 1.27 6.35) (xy -1.27 6.35) (xy -1.27 3.81) (xy -11.43 3.81) (xy -11.43 2.54)
+         (xy -1.27 2.54) (xy -1.27 -1.27) (xy -11.43 -1.27) (xy -11.43 -2.54) (xy -1.27 -2.54)
+         (xy -1.27 -6.35) (xy -15.24 -6.35) (xy -15.24 -7.62) (xy 1.27 -7.62)) (width 0.1))
+    ))
+)

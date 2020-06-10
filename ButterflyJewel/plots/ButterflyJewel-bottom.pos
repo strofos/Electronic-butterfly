@@ -1,0 +1,12 @@
+### Module positions - created on 6/2/2020 6:53:43 PM ###
+### Printed by Pcbnew version kicad (5.1.5)-3
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                                           PosX       PosY       Rot  Side
+BAT1      CR1220    BatteryHolder_Keystone_3000_1x12mm           -196.0880   -41.4020    0.0000  bottom
+R1        220       R_1206_3216Metric_Pad1.42x1.75mm_HandSolder  -187.4162   -33.1747  150.0000  bottom
+R2        220       R_1206_3216Metric_Pad1.42x1.75mm_HandSolder  -206.3750   -45.5930    0.0000  bottom
+R4        220       R_1206_3216Metric_Pad1.42x1.75mm_HandSolder  -184.5310   -36.7665    0.0000  bottom
+R5        220       R_1206_3216Metric_Pad1.42x1.75mm_HandSolder  -185.2930   -45.3390    0.0000  bottom
+SW1       SW_Push   SW_Push_1P1T-SH_NO_CK_KMR2xxG                -207.8355   -36.4490    0.0000  bottom
+## End
